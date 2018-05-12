@@ -10,6 +10,7 @@
 
 
 import UIKit
+import QuartzCore
 
 class ViewController: UIViewController {
     var score = 0
@@ -99,6 +100,11 @@ class ViewController: UIViewController {
         targetValue = 1 + Int(arc4random_uniform(100)) // randomises the target value
         currentValue = 50 // resets the slider to the centre
         slider.value = Float(currentValue)  // sets the value to a float
+        let transition = CATransition()
+        transition.type = kCATransitionFade // in transition, choose type xxx
+        transition.duration = 1
+        transition.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
+        view.layer.add(transition, forKey: nil)
     }
     
     func startNewGame() {
