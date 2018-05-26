@@ -65,3 +65,17 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
+Tipsy/TipsyUITests/TipsyUITests.swift
+Tipsy/TipsyUITests/Info.plist
+Tipsy/Tipsy/ViewController.swift
+Tipsy/Tipsy/Tipsy.xcdatamodeld/Tipsy.xcdatamodel/contents
+Tipsy/Tipsy/Tipsy.xcdatamodeld/.xccurrentversion
+Tipsy/Tipsy/Info.plist
+Tipsy/Tipsy/Base.lproj/Main.storyboard
+Tipsy/Tipsy/Base.lproj/LaunchScreen.storyboard
+Tipsy/Tipsy/Assets.xcassets/Contents.json
+Tipsy/Tipsy/Assets.xcassets/AppIcon.appiconset/Contents.json
+Tipsy/Tipsy/AppDelegate.swift
+Tipsy/Tipsy.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+Tipsy/Tipsy.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+Tipsy/Tipsy.xcodeproj/project.pbxproj
