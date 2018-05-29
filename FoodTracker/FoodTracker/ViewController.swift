@@ -8,12 +8,32 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, UITextFieldDelegate {
+    
+    //MARK: Properties
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var mealNameLabel: UILabel!
+    
+    //MARK: Action
+    @IBAction func setDefaultLabelText(_ sender: Any) {
+        mealNameLabel.text = "Default Text"
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Handle the text field’s user input through delegate callbacks.
+        nameTextField.delegate = self
     }
 
 
 }
+
+
+
+
+
+
+
+
 
