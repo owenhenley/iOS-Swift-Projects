@@ -10,13 +10,24 @@ import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
     
-    //MARK: Properties
+    //MARK: Outlet
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var mealNameLabel: UILabel!
     
     //MARK: Action
     @IBAction func setDefaultLabelText(_ sender: Any) {
         mealNameLabel.text = "Default Text"
+    }
+    
+    //MARK: UITextFieldDelegate
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        // Hide the keyboard
+        textField.resignFirstResponder()
+        return true
+    }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        mealNameLabel.text = textField.text
     }
     
     override func viewDidLoad() {
