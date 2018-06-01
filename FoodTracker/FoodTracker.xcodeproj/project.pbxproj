@@ -15,6 +15,11 @@
 		3E12951D20BC9448000B2DF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E12951B20BC9448000B2DF7 /* LaunchScreen.storyboard */; };
 		3E12952820BC9448000B2DF7 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E12952720BC9448000B2DF7 /* FoodTrackerTests.swift */; };
 		3E12953320BC9448000B2DF7 /* FoodTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E12953220BC9448000B2DF7 /* FoodTrackerUITests.swift */; };
+		3E19D8BF20C0C543007DF02A /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E19D8BE20C0C543007DF02A /* RatingControl.swift */; };
+		3EF52B8A20C0E5A1008BF777 /* emptyStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF52B8720C0E5A1008BF777 /* emptyStar.png */; };
+		3EF52B8B20C0E5A1008BF777 /* highlightedStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF52B8820C0E5A1008BF777 /* highlightedStar.png */; };
+		3EF52B8C20C0E5A1008BF777 /* filledStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF52B8920C0E5A1008BF777 /* filledStar.png */; };
+		3EF52B8F20C0E5E3008BF777 /* defaultPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF52B8E20C0E5E3008BF777 /* defaultPhoto.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		3E12952E20BC9448000B2DF7 /* FoodTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E12953220BC9448000B2DF7 /* FoodTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerUITests.swift; sourceTree = "<group>"; };
 		3E12953420BC9448000B2DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E19D8BE20C0C543007DF02A /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		3EF52B8720C0E5A1008BF777 /* emptyStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emptyStar.png; sourceTree = "<group>"; };
+		3EF52B8820C0E5A1008BF777 /* highlightedStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = highlightedStar.png; sourceTree = "<group>"; };
+		3EF52B8920C0E5A1008BF777 /* filledStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filledStar.png; sourceTree = "<group>"; };
+		3EF52B8E20C0E5E3008BF777 /* defaultPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultPhoto.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +111,10 @@
 			children = (
 				3E12950F20BC9447000B2DF7 /* AppDelegate.swift */,
 				3E12951120BC9447000B2DF7 /* ViewController.swift */,
+				3E19D8BE20C0C543007DF02A /* RatingControl.swift */,
 				3E12951320BC9447000B2DF7 /* Main.storyboard */,
 				3E12951920BC9448000B2DF7 /* Assets.xcassets */,
+				3EF52B8D20C0E5C4008BF777 /* Images */,
 				3E12951B20BC9448000B2DF7 /* LaunchScreen.storyboard */,
 				3E12951E20BC9448000B2DF7 /* Info.plist */,
 				3E12951620BC9447000B2DF7 /* FoodTracker.xcdatamodeld */,
@@ -126,6 +138,17 @@
 				3E12953420BC9448000B2DF7 /* Info.plist */,
 			);
 			path = FoodTrackerUITests;
+			sourceTree = "<group>";
+		};
+		3EF52B8D20C0E5C4008BF777 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3EF52B8720C0E5A1008BF777 /* emptyStar.png */,
+				3EF52B8920C0E5A1008BF777 /* filledStar.png */,
+				3EF52B8E20C0E5E3008BF777 /* defaultPhoto.png */,
+				3EF52B8820C0E5A1008BF777 /* highlightedStar.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +255,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EF52B8B20C0E5A1008BF777 /* highlightedStar.png in Resources */,
 				3E12951D20BC9448000B2DF7 /* LaunchScreen.storyboard in Resources */,
+				3EF52B8A20C0E5A1008BF777 /* emptyStar.png in Resources */,
+				3EF52B8C20C0E5A1008BF777 /* filledStar.png in Resources */,
+				3EF52B8F20C0E5E3008BF777 /* defaultPhoto.png in Resources */,
 				3E12951A20BC9448000B2DF7 /* Assets.xcassets in Resources */,
 				3E12951520BC9447000B2DF7 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E19D8BF20C0C543007DF02A /* RatingControl.swift in Sources */,
 				3E12951220BC9447000B2DF7 /* ViewController.swift in Sources */,
 				3E12951020BC9447000B2DF7 /* AppDelegate.swift in Sources */,
 				3E12951820BC9447000B2DF7 /* FoodTracker.xcdatamodeld in Sources */,
