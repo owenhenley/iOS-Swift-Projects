@@ -16,6 +16,7 @@ class ViewController: UITableViewController {
         super.viewDidLoad()
         
         title = "Mountain Viewer"
+        
         navigationController?.navigationBar.prefersLargeTitles = true
         
         let fm = FileManager.default
