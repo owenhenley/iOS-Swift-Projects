@@ -16,6 +16,37 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Alicia1" translatesAutoresizingMaskIntoConstraints="NO" id="Qdu-MX-v9o">
+                                <rect key="frame" x="16" y="12" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Alicia3" translatesAutoresizingMaskIntoConstraints="NO" id="3r5-j5-Go2">
+                                <rect key="frame" x="235" y="156" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Alicia4" translatesAutoresizingMaskIntoConstraints="NO" id="Gcv-Ky-Jwo">
+                                <rect key="frame" x="235" y="301" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Alicia6" translatesAutoresizingMaskIntoConstraints="NO" id="BBF-TA-wkT">
+                                <rect key="frame" x="16" y="283" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Alicia5" translatesAutoresizingMaskIntoConstraints="NO" id="MaN-ZL-37v">
+                                <rect key="frame" x="127" y="283" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="1JV-lb-IaJ">
+                                <rect key="frame" x="145" y="99" width="1200" height="1200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Alicia2" translatesAutoresizingMaskIntoConstraints="NO" id="9Tj-zB-fBQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="1200" height="1200"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -25,4 +56,12 @@
             <point key="canvasLocation" x="140" y="115.59220389805098"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Alicia1" width="1200" height="900"/>
+        <image name="Alicia2" width="1200" height="1200"/>
+        <image name="Alicia3" width="3000" height="2031"/>
+        <image name="Alicia4" width="1272" height="910"/>
+        <image name="Alicia5" width="1168" height="999"/>
+        <image name="Alicia6" width="1139" height="1000"/>
+    </resources>
 </document>
