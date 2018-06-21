@@ -56,16 +56,16 @@
                                         <rect key="frame" x="0.0" y="90" width="315" height="198"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5IE-uZ-sLu">
-                                                <rect key="frame" x="0.0" y="0.0" width="50" height="198"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="85" height="198"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="50" id="G2B-5S-wqG"/>
+                                                    <constraint firstAttribute="width" constant="85" id="G2B-5S-wqG"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.14999999999999999" minValue="0.10000000000000001" maxValue="0.25" translatesAutoresizingMaskIntoConstraints="NO" id="3qp-g2-msi">
-                                                <rect key="frame" x="48" y="0.0" width="269" height="199"/>
+                                                <rect key="frame" x="83" y="0.0" width="234" height="199"/>
                                                 <connections>
                                                     <action selector="tipChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="9CT-7Q-gBP"/>
                                                 </connections>
