@@ -51,7 +51,3 @@ w/ functional share button
 Word Scramble
 
 ![alt text](https://github.com/owenhenley/iOS-Swift-Projects/raw/master/WordScramble/2018-06-17_19-15-03.gif)
-
-![alt text]()
-
-![alt text]()
