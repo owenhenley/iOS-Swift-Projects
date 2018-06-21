@@ -8,4 +8,4 @@ Aiming to be a paid iOS Dev by 2019. Hold me to that....
 
 Tipsy Tip Calculator
 
-<iframe src="https://drive.google.com/file/d/1vOjLeccHntNL6VS-KZQIY9zsmnnjljRu/preview" width="640" height="480"></iframe>
+<a href="https://drive.google.com/file/d/1vOjLeccHntNL6VS-KZQIY9zsmnnjljRu/preview" width="640" height="480"><a>
