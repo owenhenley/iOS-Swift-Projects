@@ -11,6 +11,8 @@
 		3E4236FF20E18BF00000AEEA /* ICC_highlightedStar_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4236FC20E18BF00000AEEA /* ICC_highlightedStar_2x.png */; };
 		3E42370020E18BF00000AEEA /* ICC_emptyStar_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4236FD20E18BF00000AEEA /* ICC_emptyStar_2x.png */; };
 		3E42370120E18BF00000AEEA /* ICC_filledStar_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4236FE20E18BF00000AEEA /* ICC_filledStar_2x.png */; };
+		3E51921220E4617E00AF5A8A /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E51921120E4617E00AF5A8A /* MealTableViewCell.swift */; };
+		3E51921A20E4794600AF5A8A /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E51921920E4794600AF5A8A /* MealTableViewController.swift */; };
 		3E5B434320DED2DF005D8BA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5B434220DED2DF005D8BA8 /* AppDelegate.swift */; };
 		3E5B434520DED2DF005D8BA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5B434420DED2DF005D8BA8 /* ViewController.swift */; };
 		3E5B434820DED2DF005D8BA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E5B434620DED2DF005D8BA8 /* Main.storyboard */; };
@@ -18,14 +20,14 @@
 		3E5B434D20DED2E0005D8BA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E5B434B20DED2E0005D8BA8 /* LaunchScreen.storyboard */; };
 		3E5B435820DED2E1005D8BA8 /* Food_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5B435720DED2E1005D8BA8 /* Food_TrackerTests.swift */; };
 		3E5B436320DED2E1005D8BA8 /* Food_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5B436220DED2E1005D8BA8 /* Food_TrackerUITests.swift */; };
-		3E5B437920DEE068005D8BA8 /* Hero-Chefs-Table-Documentary-Second-Season-Returns-Netflix-David-Gelb-Food-Films.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E5B437120DEE068005D8BA8 /* Hero-Chefs-Table-Documentary-Second-Season-Returns-Netflix-David-Gelb-Food-Films.jpg */; };
-		3E5B437A20DEE068005D8BA8 /* 08-chefs-table.w710.h473.2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E5B437220DEE068005D8BA8 /* 08-chefs-table.w710.h473.2x.jpg */; };
-		3E5B437B20DEE068005D8BA8 /* Chef_2_Olvera_00698R.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E5B437320DEE068005D8BA8 /* Chef_2_Olvera_00698R.jpg */; };
-		3E5B437C20DEE068005D8BA8 /* bangkok-cray-netflix-chefs-table-season-2-gaggan-progressive-indian-restaurant-15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E5B437420DEE068005D8BA8 /* bangkok-cray-netflix-chefs-table-season-2-gaggan-progressive-indian-restaurant-15.jpg */; };
-		3E5B437D20DEE068005D8BA8 /* bangkok-cray-netflix-chefs-table-season-2-gaggan-progressive-indian-restaurant-24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E5B437520DEE068005D8BA8 /* bangkok-cray-netflix-chefs-table-season-2-gaggan-progressive-indian-restaurant-24.jpg */; };
-		3E5B437E20DEE068005D8BA8 /* 1280_chefstable_food_netflix.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E5B437620DEE068005D8BA8 /* 1280_chefstable_food_netflix.jpg */; };
-		3E5B437F20DEE068005D8BA8 /* netflix-chefs-table-pastry-day-at-the-beach-ft-blog0418.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E5B437720DEE068005D8BA8 /* netflix-chefs-table-pastry-day-at-the-beach-ft-blog0418.jpg */; };
-		3E5B438020DEE068005D8BA8 /* bangkok-cray-netflix-chefs-table-season-2-gaggan-progressive-indian-restaurant-20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E5B437820DEE068005D8BA8 /* bangkok-cray-netflix-chefs-table-season-2-gaggan-progressive-indian-restaurant-20.jpg */; };
+		3E5B437920DEE068005D8BA8 /* meal1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E5B437120DEE068005D8BA8 /* meal1.jpg */; };
+		3E5B437A20DEE068005D8BA8 /* meal2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E5B437220DEE068005D8BA8 /* meal2.jpg */; };
+		3E5B437B20DEE068005D8BA8 /* meal3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E5B437320DEE068005D8BA8 /* meal3.jpg */; };
+		3E5B437C20DEE068005D8BA8 /* meal4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E5B437420DEE068005D8BA8 /* meal4.jpg */; };
+		3E5B437D20DEE068005D8BA8 /* meal5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E5B437520DEE068005D8BA8 /* meal5.jpg */; };
+		3E5B437E20DEE068005D8BA8 /* meal6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E5B437620DEE068005D8BA8 /* meal6.jpg */; };
+		3E5B437F20DEE068005D8BA8 /* meal7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E5B437720DEE068005D8BA8 /* meal7.jpg */; };
+		3E5B438020DEE068005D8BA8 /* meal8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E5B437820DEE068005D8BA8 /* meal8.jpg */; };
 		3E7544B220DF521D00E0205D /* defaultphoto_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E7544B120DF521D00E0205D /* defaultphoto_2x.png */; };
 		3E88D97520E4283C0045B301 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E88D97420E4283C0045B301 /* Meal.swift */; };
 /* End PBXBuildFile section */
@@ -52,6 +54,8 @@
 		3E4236FC20E18BF00000AEEA /* ICC_highlightedStar_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICC_highlightedStar_2x.png; sourceTree = "<group>"; };
 		3E4236FD20E18BF00000AEEA /* ICC_emptyStar_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICC_emptyStar_2x.png; sourceTree = "<group>"; };
 		3E4236FE20E18BF00000AEEA /* ICC_filledStar_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICC_filledStar_2x.png; sourceTree = "<group>"; };
+		3E51921120E4617E00AF5A8A /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		3E51921920E4794600AF5A8A /* MealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 		3E5B433F20DED2DF005D8BA8 /* Food Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E5B434220DED2DF005D8BA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E5B434420DED2DF005D8BA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,14 +69,14 @@
 		3E5B435E20DED2E1005D8BA8 /* Food TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E5B436220DED2E1005D8BA8 /* Food_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_TrackerUITests.swift; sourceTree = "<group>"; };
 		3E5B436420DED2E1005D8BA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3E5B437120DEE068005D8BA8 /* Hero-Chefs-Table-Documentary-Second-Season-Returns-Netflix-David-Gelb-Food-Films.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hero-Chefs-Table-Documentary-Second-Season-Returns-Netflix-David-Gelb-Food-Films.jpg"; sourceTree = "<group>"; };
-		3E5B437220DEE068005D8BA8 /* 08-chefs-table.w710.h473.2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "08-chefs-table.w710.h473.2x.jpg"; sourceTree = "<group>"; };
-		3E5B437320DEE068005D8BA8 /* Chef_2_Olvera_00698R.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chef_2_Olvera_00698R.jpg; sourceTree = "<group>"; };
-		3E5B437420DEE068005D8BA8 /* bangkok-cray-netflix-chefs-table-season-2-gaggan-progressive-indian-restaurant-15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bangkok-cray-netflix-chefs-table-season-2-gaggan-progressive-indian-restaurant-15.jpg"; sourceTree = "<group>"; };
-		3E5B437520DEE068005D8BA8 /* bangkok-cray-netflix-chefs-table-season-2-gaggan-progressive-indian-restaurant-24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bangkok-cray-netflix-chefs-table-season-2-gaggan-progressive-indian-restaurant-24.jpg"; sourceTree = "<group>"; };
-		3E5B437620DEE068005D8BA8 /* 1280_chefstable_food_netflix.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1280_chefstable_food_netflix.jpg; sourceTree = "<group>"; };
-		3E5B437720DEE068005D8BA8 /* netflix-chefs-table-pastry-day-at-the-beach-ft-blog0418.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "netflix-chefs-table-pastry-day-at-the-beach-ft-blog0418.jpg"; sourceTree = "<group>"; };
-		3E5B437820DEE068005D8BA8 /* bangkok-cray-netflix-chefs-table-season-2-gaggan-progressive-indian-restaurant-20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bangkok-cray-netflix-chefs-table-season-2-gaggan-progressive-indian-restaurant-20.jpg"; sourceTree = "<group>"; };
+		3E5B437120DEE068005D8BA8 /* meal1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meal1.jpg; sourceTree = "<group>"; };
+		3E5B437220DEE068005D8BA8 /* meal2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meal2.jpg; sourceTree = "<group>"; };
+		3E5B437320DEE068005D8BA8 /* meal3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meal3.jpg; sourceTree = "<group>"; };
+		3E5B437420DEE068005D8BA8 /* meal4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meal4.jpg; sourceTree = "<group>"; };
+		3E5B437520DEE068005D8BA8 /* meal5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meal5.jpg; sourceTree = "<group>"; };
+		3E5B437620DEE068005D8BA8 /* meal6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meal6.jpg; sourceTree = "<group>"; };
+		3E5B437720DEE068005D8BA8 /* meal7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meal7.jpg; sourceTree = "<group>"; };
+		3E5B437820DEE068005D8BA8 /* meal8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meal8.jpg; sourceTree = "<group>"; };
 		3E7544B120DF521D00E0205D /* defaultphoto_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultphoto_2x.png; sourceTree = "<group>"; };
 		3E88D97420E4283C0045B301 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -129,6 +133,8 @@
 				3E5B434420DED2DF005D8BA8 /* ViewController.swift */,
 				3E4236F420E05ECD0000AEEA /* RatingControl.swift */,
 				3E88D97420E4283C0045B301 /* Meal.swift */,
+				3E51921120E4617E00AF5A8A /* MealTableViewCell.swift */,
+				3E51921920E4794600AF5A8A /* MealTableViewController.swift */,
 				3E5B434620DED2DF005D8BA8 /* Main.storyboard */,
 				3E5B434920DED2E0005D8BA8 /* Assets.xcassets */,
 				3E5B434B20DED2E0005D8BA8 /* LaunchScreen.storyboard */,
@@ -163,14 +169,14 @@
 				3E4236FE20E18BF00000AEEA /* ICC_filledStar_2x.png */,
 				3E4236FC20E18BF00000AEEA /* ICC_highlightedStar_2x.png */,
 				3E7544B120DF521D00E0205D /* defaultphoto_2x.png */,
-				3E5B437120DEE068005D8BA8 /* Hero-Chefs-Table-Documentary-Second-Season-Returns-Netflix-David-Gelb-Food-Films.jpg */,
-				3E5B437220DEE068005D8BA8 /* 08-chefs-table.w710.h473.2x.jpg */,
-				3E5B437320DEE068005D8BA8 /* Chef_2_Olvera_00698R.jpg */,
-				3E5B437420DEE068005D8BA8 /* bangkok-cray-netflix-chefs-table-season-2-gaggan-progressive-indian-restaurant-15.jpg */,
-				3E5B437520DEE068005D8BA8 /* bangkok-cray-netflix-chefs-table-season-2-gaggan-progressive-indian-restaurant-24.jpg */,
-				3E5B437620DEE068005D8BA8 /* 1280_chefstable_food_netflix.jpg */,
-				3E5B437720DEE068005D8BA8 /* netflix-chefs-table-pastry-day-at-the-beach-ft-blog0418.jpg */,
-				3E5B437820DEE068005D8BA8 /* bangkok-cray-netflix-chefs-table-season-2-gaggan-progressive-indian-restaurant-20.jpg */,
+				3E5B437120DEE068005D8BA8 /* meal1.jpg */,
+				3E5B437220DEE068005D8BA8 /* meal2.jpg */,
+				3E5B437320DEE068005D8BA8 /* meal3.jpg */,
+				3E5B437420DEE068005D8BA8 /* meal4.jpg */,
+				3E5B437520DEE068005D8BA8 /* meal5.jpg */,
+				3E5B437620DEE068005D8BA8 /* meal6.jpg */,
+				3E5B437720DEE068005D8BA8 /* meal7.jpg */,
+				3E5B437820DEE068005D8BA8 /* meal8.jpg */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -280,20 +286,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E5B434D20DED2E0005D8BA8 /* LaunchScreen.storyboard in Resources */,
-				3E5B437C20DEE068005D8BA8 /* bangkok-cray-netflix-chefs-table-season-2-gaggan-progressive-indian-restaurant-15.jpg in Resources */,
+				3E5B437C20DEE068005D8BA8 /* meal4.jpg in Resources */,
 				3E5B434A20DED2E0005D8BA8 /* Assets.xcassets in Resources */,
-				3E5B437B20DEE068005D8BA8 /* Chef_2_Olvera_00698R.jpg in Resources */,
+				3E5B437B20DEE068005D8BA8 /* meal3.jpg in Resources */,
 				3E5B434820DED2DF005D8BA8 /* Main.storyboard in Resources */,
 				3E4236FF20E18BF00000AEEA /* ICC_highlightedStar_2x.png in Resources */,
 				3E42370120E18BF00000AEEA /* ICC_filledStar_2x.png in Resources */,
-				3E5B437F20DEE068005D8BA8 /* netflix-chefs-table-pastry-day-at-the-beach-ft-blog0418.jpg in Resources */,
+				3E5B437F20DEE068005D8BA8 /* meal7.jpg in Resources */,
 				3E7544B220DF521D00E0205D /* defaultphoto_2x.png in Resources */,
-				3E5B437D20DEE068005D8BA8 /* bangkok-cray-netflix-chefs-table-season-2-gaggan-progressive-indian-restaurant-24.jpg in Resources */,
-				3E5B437E20DEE068005D8BA8 /* 1280_chefstable_food_netflix.jpg in Resources */,
-				3E5B437A20DEE068005D8BA8 /* 08-chefs-table.w710.h473.2x.jpg in Resources */,
+				3E5B437D20DEE068005D8BA8 /* meal5.jpg in Resources */,
+				3E5B437E20DEE068005D8BA8 /* meal6.jpg in Resources */,
+				3E5B437A20DEE068005D8BA8 /* meal2.jpg in Resources */,
 				3E42370020E18BF00000AEEA /* ICC_emptyStar_2x.png in Resources */,
-				3E5B437920DEE068005D8BA8 /* Hero-Chefs-Table-Documentary-Second-Season-Returns-Netflix-David-Gelb-Food-Films.jpg in Resources */,
-				3E5B438020DEE068005D8BA8 /* bangkok-cray-netflix-chefs-table-season-2-gaggan-progressive-indian-restaurant-20.jpg in Resources */,
+				3E5B437920DEE068005D8BA8 /* meal1.jpg in Resources */,
+				3E5B438020DEE068005D8BA8 /* meal8.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,9 +325,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E88D97520E4283C0045B301 /* Meal.swift in Sources */,
+				3E51921A20E4794600AF5A8A /* MealTableViewController.swift in Sources */,
 				3E5B434520DED2DF005D8BA8 /* ViewController.swift in Sources */,
 				3E4236F520E05ECD0000AEEA /* RatingControl.swift in Sources */,
 				3E5B434320DED2DF005D8BA8 /* AppDelegate.swift in Sources */,
+				3E51921220E4617E00AF5A8A /* MealTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
