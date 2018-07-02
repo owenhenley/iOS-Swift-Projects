@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MealViewController.swift
 //  Food Tracker
 //
 //  Created by Owen Henley on 6/23/18.
@@ -7,14 +7,18 @@
 //
 
 import UIKit
+import os.log
 
-class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     //MARK: Outlets
-    @IBOutlet weak var mealName: UILabel!
+    
     @IBOutlet weak var mealTextField: UITextField!
     @IBOutlet weak var photoImageView: UIImageView!
     @IBOutlet weak var ratingControl: RatingControl!
+    @IBOutlet weak var saveButton: UIBarButtonItem!
+    
+    var meal = Meal?.self
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,7 +32,6 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
     }
     
     func textFieldDidEndEditing(_ textField: UITextField) {
-        mealName.text = textField.text
     }
     
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
@@ -42,6 +45,23 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
         photoImageView.image = selectedImage
         dismiss(animated: true, completion: nil)
     }
+    
+    //MARK: Navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        super.prepare(for: segue, sender: sender)
+        
+        guard let button = sender as? UIBarButtonItem, button === saveButton else {
+            os_log("The save button was not pressed, cancelling", log:OSLog.default, type: .debug)
+            return
+        }
+        
+        let meal = mealTextField.text ?? ""
+        let photo = photoImageView.image
+        let rating = ratingControl.rating
+        
+        meal = Meal(name: name, photo: photo, rating: rating)
+    }
+    
     
     //MARK: Actions
    
