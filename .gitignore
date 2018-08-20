@@ -2,6 +2,10 @@
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
+## Folders
+# Comment this out to disclude framework files
+# Frameworks/
+
 ## Build generated
 build/
 DerivedData/
@@ -17,10 +21,14 @@ DerivedData/
 !default.perspectivev3
 xcuserdata/
 
-## Other
+## File Typesus
 *.moved-aside
-*.xccheckout
-*.xcscmblueprint
+*.xcuserstate
+*.DS_Store
+
+## Files
+Podfile.lock
+Manifest.lock
 
 ## Obj-C/Swift specific
 *.hmap
@@ -36,7 +44,6 @@ playground.xcworkspace
 #
 # Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
 # Packages/
-# Package.pins
 .build/
 
 # CocoaPods
@@ -45,7 +52,7 @@ playground.xcworkspace
 # you should judge for yourself, the pros and cons are mentioned at:
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
-# Pods/
+Pods/
 
 # Carthage
 #
@@ -59,25 +66,9 @@ Carthage/Build
 # It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
 # screenshots whenever they are needed.
 # For more information about the recommended setup visit:
-# https://docs.fastlane.tools/best-practices/source-control/#source-control
+# https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Gitignore.md
 
 fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
-Tipsy/TipsyUITests/TipsyUITests.swift
-Tipsy/TipsyUITests/Info.plist
-Tipsy/Tipsy/ViewController.swift
-Tipsy/Tipsy/Tipsy.xcdatamodeld/Tipsy.xcdatamodel/contents
-Tipsy/Tipsy/Tipsy.xcdatamodeld/.xccurrentversion
-Tipsy/Tipsy/Info.plist
-Tipsy/Tipsy/Base.lproj/Main.storyboard
-Tipsy/Tipsy/Base.lproj/LaunchScreen.storyboard
-Tipsy/Tipsy/Assets.xcassets/Contents.json
-Tipsy/Tipsy/Assets.xcassets/AppIcon.appiconset/Contents.json
-Tipsy/Tipsy/AppDelegate.swift
-Tipsy/Tipsy.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
-Tipsy/Tipsy.xcodeproj/project.xcworkspace/contents.xcworkspacedata
-Tipsy/Tipsy.xcodeproj/project.pbxproj
-README.md
-README.md
