@@ -35,12 +35,6 @@ Aiming to be a paid iOS Dev by 2019. Hold me to that....
 
 <br>
 
-### Easy Browser
-
-![alt text](https://github.com/owenhenley/iOS-Swift-Projects/raw/master/EasyBrowser/2018-06-06_17-59-28.gif)
-
-<br>
-
 ### Element Quiz
 
 ![alt text](https://github.com/owenhenley/iOS-Swift-Projects/raw/master/ElementQuiz/2018-05-23_16-34-34.gif)
@@ -65,18 +59,4 @@ Aiming to be a paid iOS Dev by 2019. Hold me to that....
 
 <br>
 
-### Word Scramble
 
-![alt text](https://github.com/owenhenley/iOS-Swift-Projects/raw/master/WordScramble/2018-06-17_19-15-03.gif)
-
-<br>
-
-### w/ functional share button
-
-![alt text](https://github.com/owenhenley/iOS-Swift-Projects/raw/master/StormViewer/ShareDemo.gif)
-
-<br>
-
-### Storm Viewer (personal customisation)
-
-![alt text](https://github.com/owenhenley/iOS-Swift-Projects/raw/master/StormViewer/AppDemo.gif)
