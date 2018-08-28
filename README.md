@@ -8,23 +8,6 @@ Aiming to be a paid iOS Dev by 2019. Hold me to that....
 
 ![alt text](https://github.com/owenhenley/iOS-Swift-Projects/blob/master/HonoluluArtMapKit/Mapkit.gif?raw=true)
 
-
-### Xylophone
-
-![alt text](https://github.com/owenhenley/iOS-Swift-Projects/blob/master/Xylophone/xylophone.gif?raw=true)
-
-<br>
-
-### Magic 8 Ball
-
-![alt text](https://github.com/owenhenley/iOS-Swift-Projects/blob/master/Magic8Ball/8ball.gif?raw=true)
-
-<br>
-
-### Dicee
-
-![alt text](https://github.com/owenhenley/iOS-Swift-Projects/blob/master/Dicee/Dicee.gif?raw=true)
-
 <br>
 
 ### Scroll View
