@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Map View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MapViewController" customModule="mapkitpractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="g0k-Jz-k5v">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                            </mapView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noun_Pin_1980881" translatesAutoresizingMaskIntoConstraints="NO" id="2RB-Vu-Ozf">
+                                <rect key="frame" x="187" y="419" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Dfl-qg-i3W"/>
+                                    <constraint firstAttribute="height" constant="40" id="VaP-to-88P"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jE3-Qg-ghf">
+                                <rect key="frame" x="0.0" y="812" width="414" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="OKC-hB-bn0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZpU-Gz-Cd5">
+                                <rect key="frame" x="293" y="708" width="101" height="96"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <state key="normal" title="GO"/>
+                                <connections>
+                                    <action selector="goButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jgp-KH-bmC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jE3-Qg-ghf" firstAttribute="top" secondItem="ZpU-Gz-Cd5" secondAttribute="bottom" constant="8" symbolic="YES" id="2d0-OD-B34"/>
+                            <constraint firstItem="2RB-Vu-Ozf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-9" id="3K1-bQ-5oo"/>
+                            <constraint firstItem="2RB-Vu-Ozf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="53x-9h-2u6"/>
+                            <constraint firstItem="g0k-Jz-k5v" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="5uF-c5-Tnv"/>
+                            <constraint firstItem="g0k-Jz-k5v" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="6Mp-07-Ybj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="g0k-Jz-k5v" secondAttribute="bottom" id="GXP-M6-EFU"/>
+                            <constraint firstAttribute="trailing" secondItem="g0k-Jz-k5v" secondAttribute="trailing" id="ODa-W1-Zzb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jE3-Qg-ghf" secondAttribute="bottom" id="OQJ-ps-y0n"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jE3-Qg-ghf" secondAttribute="trailing" id="U2k-S0-VEP"/>
+                            <constraint firstItem="ZpU-Gz-Cd5" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="evA-hH-dkp"/>
+                            <constraint firstItem="jE3-Qg-ghf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xwq-4u-CSc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="addressLabel" destination="jE3-Qg-ghf" id="nXv-hh-lCh"/>
+                        <outlet property="locationPin" destination="2RB-Vu-Ozf" id="irc-5R-lwX"/>
+                        <outlet property="mapView" destination="g0k-Jz-k5v" id="I0C-zh-P3c"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="noun_Pin_1980881" width="546" height="546"/>
+    </resources>
+</document>
